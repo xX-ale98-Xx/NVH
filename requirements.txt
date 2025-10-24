@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pandas
+pyserial
+openpyxl
+control
+Pillow

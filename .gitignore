@@ -1,0 +1,25 @@
+# File di Cache e Build
+__pycache__/
+*.pyc
+
+# Cartelle di Build e Distribuzione (PyInstaller)
+build/
+*.spec
+
+# File e cartelle che non vogliamo tracciare
+QV-500hz-mm.xlsx
+driver_texas_instrument/
+img/
+ui_gpt.py
+NVHApp.py
+
+# File di ambiente e variabili (se non già tracciati)
+# env/  <-- Se 'env' è il tuo ambiente virtuale, va ESCLUSO
+# Nota: Git non mostra l'ambiente virtuale nella prima 'git status'
+# perché è una cartella esterna al repository (anche se l'hai attivata).
+
+# File specifici di IDE e MATLAB/Simulink che potresti voler ignorare
+# Spesso sono generati automaticamente e non sono essenziali al codice
+# *.m
+# *.mlapp
+# *.slx
