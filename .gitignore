@@ -10,6 +10,7 @@ build/
 QV-500hz-mm.xlsx
 driver_texas_instrument/
 img/
+env/
 ui_gpt.py
 NVHApp.py
 
